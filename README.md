@@ -20,12 +20,12 @@ Check if everything is working:
 docker-compose ps
 ```
 
-## Dashboards
+### Dashboards
 
 - [Nifi](https://localhost:8443/nifi) (login with admin/S3curePa55word)
 - [Confluent Control Center](http://localhost:9021/)
 
-# Stop
+## Stop
 
 Stop with:
 
