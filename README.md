@@ -1,6 +1,6 @@
 # Demo Nifi, Kafka, Confluent
 
-This repo contains a demo setup with Nifi, Kafka and the Confluent platform. These services can be run directly with [Docker compose](https://www.docker.com/get-started/). Overview:
+This repo contains a demo setup with Nifi, Kafka and the [Confluent platform](https://docs.confluent.io/platform/current/quickstart/ce-docker-quickstart.html). These services can be run directly with [Docker compose](https://www.docker.com/get-started/). Overview:
 
 ![Overview](images/overview.png)
 
@@ -20,6 +20,12 @@ Check if everything is working:
 docker-compose ps
 ```
 
+Show logs:
+
+```
+docker-compose logs -f <app>
+```
+
 ### Dashboards
 
 - [Nifi](https://localhost:8443/nifi) (login with admin/S3curePa55word)
@@ -32,7 +38,3 @@ Stop with:
 ```
 docker-compose down
 ```
-
-## Docu
-
-This documentation is based on the [Confluent Quick Start](https://docs.confluent.io/platform/current/quickstart/ce-docker-quickstart.html)
