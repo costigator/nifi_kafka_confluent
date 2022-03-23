@@ -1,0 +1,27 @@
+{
+  "type": "record",
+  "namespace": "com.mycorp.mynamespace",
+  "name": "testRecord",
+  "doc": "Sample schema to help you get started.",
+  "fields": [
+    {
+      "name": "time",
+      "type": "long",
+      "doc": "UTC unix time in milliseconds"
+    },
+    {
+      "name": "filename",
+      "type": "string"
+    },
+    {
+      "name": "ip",
+      "type": "string",
+      "doc": "IP address of the client"
+    },
+    {
+      "name": "type",
+      "type": ["null", "string"],
+      "doc": "Optional field describing the type of event."
+    }
+  ]
+}
