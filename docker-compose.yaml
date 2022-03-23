@@ -9,7 +9,7 @@ services:
       - "8443:8443" # HTTPS Webinterface
     volumes:
       - ./nifi/config:/conf
-      - ./data/raw:/raw
+      - ./data:/data
       - ./scripts:/scripts
     environment:
       SINGLE_USER_CREDENTIALS_USERNAME: admin
